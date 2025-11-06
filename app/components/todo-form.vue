@@ -37,6 +37,7 @@ v-model="task.text" placeholder="Write about your task..."
 />
         <footer class="rtl grid">
           <button
+            type="button"
             :disabled="loading"
             :aria-busy="loading"
             @click.prevent="addNew"

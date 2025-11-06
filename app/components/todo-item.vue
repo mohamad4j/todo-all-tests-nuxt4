@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Task } from "~/types/main";
+import { ref } from "vue";
 const loading = ref(false);
 const props = defineProps<{
   task: Task;

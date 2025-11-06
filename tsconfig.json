@@ -1,6 +1,14 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "files": [],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["vitest", "@vitejs/plugin-vue"],
+    "skipLibCheck": true
+  },
   "references": [
     {
       "path": "./.nuxt/tsconfig.app.json"

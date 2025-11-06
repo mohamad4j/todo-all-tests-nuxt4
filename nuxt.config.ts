@@ -1,6 +1,6 @@
 /// <reference types="nuxt" />
 export default defineNuxtConfig({
-  modules: ['@nuxt/test-utils', '@nuxt/eslint'],
+  modules: ['@nuxt/test-utils/module', '@nuxt/eslint'],
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
@@ -14,4 +14,7 @@ export default defineNuxtConfig({
       stylistic: true, // <---
     },
   },
+    vite: {
+
+    }
 });
